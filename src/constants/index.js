@@ -163,7 +163,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Ashish delivered exceptional backend solutions for our gaming platform. His expertise in Node.js and real-time communication ensured seamless gameplay and enhanced user engagement.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -171,7 +171,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Collaborating with Ashish was a game-changer. He optimized our database and implemented efficient game logic, significantly improving performance and scalability for our platform.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -179,7 +179,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Ashish's technical skills and dedication stood out. He developed robust APIs and integrated real-time features, delivering an outstanding experience for both players and developers alike.",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
