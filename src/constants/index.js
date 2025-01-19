@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  digitalCrew,
+  imocha,
+  rc
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Nodejs  Developer",
     icon: mobile,
   },
   {
@@ -54,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Board Game Developer",
     icon: creator,
   },
 ];
@@ -116,57 +119,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Node.js Developer",
+    company_name: "Digital Crew",
+    icon: digitalCrew,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Dec 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Node.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing scalabe backends of board games like poker , ludo , rummy and teen-patti",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Problem Setter",
+    company_name: "Imocha",
+    icon: imocha,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2022 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Designed problems exclusively using the Java programming language, showcasing a high level of proficiency in the Java language",
+      "Generated problems covering a wide range of algorithmic topics, including arrays, strings, hashing, searching algorithms,trees, and priority queues",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created engaging and challenging problems to test participants' knowledge and problem-solving skills in various domains.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: " Joint Secretory",
+    company_name: "Robotics Club MMMUT",
+    icon: rc,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "July 2021 - April 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Superwised event web-quest and guided juniors ",
+      "Successfully Conducted fest Robomania",
+      "Review Project Submitted in web-quest by the participants ",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [
@@ -198,67 +189,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Real Ludo",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Real Ludo is an engaging multiplayer game offering Classic, Rush, and Bolt variants, with an intelligent bot system ensuring seamless gameplay anytime.",
     tags: [
       {
-        name: "react",
+        name: "Nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Unity",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/file/d/1XmvKMMDiZa8B2ST-NDmdKRYBIJxeLmNs/view",
   },
   {
-    name: "Job IT",
+    name: "Pocket Seven",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Pocket Seven is a dynamic multiplayer poker game featuring clubs with lobby games like PLO, PLO4, PLO5, PLO6, Texas, and exciting tournaments for players.",
     tags: [
       {
-        name: "react",
+        name: "Nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Socket-io",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Redis",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/file/d/1-NRTtq32hOD3X78zA3FQ0Vpvw5k5jQHP/view",
   },
   {
-    name: "Trip Guide",
+    name: "Teen Patti",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Teen Patti Pro is a thrilling multiplayer card game offering seamless real-time gameplay, featuring advanced caching, smooth task handling, and optimized performance for players.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Mysql",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://drive.google.com/file/d/1FIcnAKws9MYyQ3GG6vmQ93eo9nLcFQdK/view",
   },
 ];
 

@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import arrow from "./arrow.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -25,10 +26,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import digitalCrew from "./company/digitalCrew.png";
+import imocha from "./company/imocha_logo.jpg";
+import rc from "./company/rc.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+import carrent from "./carrent.jpeg";
+import jobit from "./jobit.jpeg";
+import tripguide from "./tripguide.jpeg";
 
 export {
   logo,
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  digitalCrew,
+  imocha,
+  rc,
+  arrow
 };
